@@ -1,0 +1,22 @@
+.feature-item{
+    position: relative;
+    padding-left: 94px;
+
+    &__icon{
+        position: absolute;
+        left:0;
+        
+    }
+
+    &__subtitle{
+        font-weight: 400;
+        font-size: 1.6rem;
+        margin-top: 3em;
+    }
+    &__desc{
+        line-height: 1.6;
+        font-size: 1.1rem;
+        font-weight: 200;
+       
+    }
+}

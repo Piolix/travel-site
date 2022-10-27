@@ -10,6 +10,10 @@
         &--gutters > div {
             padding-right: 65px;
         } 
+        &--gutters-large > div{
+            padding-right: 100px;
+        }
+
         &__4{
             float: left;
             width: 33.33%;
@@ -29,6 +33,12 @@
                 width: 63%;
             }
         }
+        &__6{
+            float: left;
+            width: 45%;
+            margin: 1rem;
+        }
+
     }
     
 
