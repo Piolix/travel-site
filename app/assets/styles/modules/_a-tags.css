@@ -1,0 +1,5 @@
+.a-tag{
+&--orange{
+    color:$mainOrange;
+}
+}

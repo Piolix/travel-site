@@ -1,0 +1,35 @@
+.row{
+
+    &::after{
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    @media (min-width: 800px){
+        &--gutters > div {
+            padding-right: 65px;
+        } 
+        &__4{
+            float: left;
+            width: 33.33%;
+
+            &--larger{
+                width: 37%;
+            }
+        }
+        &__8{
+            @media (min-width: 530px){
+                font-size: 0.8rem;
+            }
+            line-height: 2rem;
+            float: left;
+            width: 66.66%;
+            &--smaller{
+                width: 63%;
+            }
+        }
+    }
+    
+
+}
