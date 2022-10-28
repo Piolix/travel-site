@@ -12,6 +12,14 @@
         margin-bottom: 0.2rem;
     }
 
+    &--blue{
+        color: $mainBlue;
+    }
+
+    &--orange{
+        color: $mainOrange;
+    }
+
     &__icon{
         margin-right: 1.5rem;
         max-width: 48px;
@@ -19,6 +27,7 @@
         @media (min-width: 800px){
             margin-right: 1.5rem;
             max-width: 200px;
+            margin-bottom: -.5rem;
         }
         
     }

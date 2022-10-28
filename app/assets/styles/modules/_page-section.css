@@ -9,5 +9,17 @@
         background-color: $mainBlue;
         color: white;
     }
+    &--testimonials{
+        background-color: #e0e6ef;
+    }
+    @media (min-width: 800px){
+    &--testimonials{
+        background-image: url(../images/testimonials-bg.jpg);
+        background-position-y: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+    }
+}
 
 }
